@@ -248,3 +248,18 @@ ImprovedTube.playlistPopup = function () {
 		} catch (error) { console.error("Error appending playlist button panel:", error);}
 	}
 };
+
+/*------------------------------------------------------------------------------
+4.5.6 FORCE ALL VIDEOS IN PLAYLIST TO PLAY FROM BEGINNING
+------------------------------------------------------------------------------*/
+ImprovedTube.playlistForceVideosPlayFromBeginning = function() {
+	"use strict";
+	if (this.storage.playlist_force_videos_start_from_beginning) {
+		const player = this.elements.player, 
+			video = this.elements.video;
+
+		if (player && video) {
+			player.seekTo(0);
+		}
+	}
+}
