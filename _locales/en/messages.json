@@ -974,6 +974,9 @@
     "playlist": {
         "message": "Playlist"
     },
+    "playlistForceVideosStartFromBeginning": {
+        "message": "Force all videos to play from the beginning"
+    },
     "playlists": {
         "message": "Playlists"
     },

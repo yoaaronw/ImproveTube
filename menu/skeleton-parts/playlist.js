@@ -42,6 +42,10 @@ extension.skeleton.main.layers.section.playlist = {
 				playlist_popup: {
 					component: 'switch',
 					text: 'popupPlayer'
+				},
+				playlist_force_videos_start_from_beginning: {
+					component: 'switch',
+					text: 'playlistForceVideosStartFromBeginning'
 				}
 			}
 		}
